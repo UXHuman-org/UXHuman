@@ -64,9 +64,9 @@ People must see, understand, and control the data and logic that affect them.
 
 ## Beyond the User Experience — Toward **IntentWeb**
 
-UXHuman sets the rules for human-first, language-governed interaction.  
+UXHuman sets the rules for language-governed, human-to-system interaction.  
 When **every content, product, or service provider can resolve intent inside its own data boundaries — using the APIs and micro-services it already runs —** that intent stays sovereign and can travel intact, with no screen-scraping and no central gate-keepers guessing intent with someone else’s data.  
-From that foundation emerges **IntentWeb**: a decentralised mesh where systems exchange intent as effortlessly as people do. **UXHuman is the first step; IntentWeb is the horizon.**
+From that foundation emerges **IntentWeb**: a decentralised mesh where system-to-system exchanges of intent flow as effortlessly as conversation between people. **UXHuman is the first step; IntentWeb is the horizon.**
 
 ---
 
