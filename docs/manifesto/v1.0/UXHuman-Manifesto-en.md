@@ -1,4 +1,4 @@
-# The UXHuman Manifesto
+# The UXHuman Manifesto 
 
 ## The Broken Pact
 Make no mistake: the old pact of the Internet is broken. The Web was meant to connect companies to their customers, yet today, AI giants stand in the middle.  
