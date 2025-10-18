@@ -27,7 +27,7 @@ UXHuman proposes an open alternative: a standardized, interoperable way for any 
 
 UXHuman consists of five interrelated documents:
 
-- **[Manifesto]([https://github.com/UXHuman-org/UXHuman/blob/main/docs/manifesto/UXHuman-Manifesto-en.md](https://github.com/UXHuman-org/UXHuman/blob/main/docs/manifesto%20/XHuman-Manifesto-en.md)** — Defines the purpose, scope, and four foundational values: *Language*, *Trust*, *Mental Load*, and *Agency*.  
+- **[Manifesto](https://github.com/UXHuman-org/UXHuman/blob/main/docs/economic-model/UXHuman-Manifesto-en.md)** — Defines the purpose, scope, and four foundational values: *Language*, *Trust*, *Mental Load*, and *Agency*.  
   These values are expressed through nineteen design principles with measurable criteria.
 
 - **[Economic Model](https://github.com/UXHuman-org/UXHuman/blob/main/docs/economic-model/UXHuman-Economic-Model-en.md)** — Describes how value flows in an intent-based ecosystem.  
