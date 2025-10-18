@@ -1,7 +1,7 @@
 # UXHuman – Open Source Framework for the IntentWeb
 
 © 2025 Mauricio Aristizabal — Canonical repository under the **UXHuman-org** organisation  
-Domains: [UXHuman.com](https://uxhuman.com) • [UXHuman.io](https://uxhuman.io) • [UXHuman.org](https://uxhuman.org)
+Domain: [UXHuman.org](https://uxhuman.org)
 
 ---
 
