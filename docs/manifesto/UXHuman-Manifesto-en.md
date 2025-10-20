@@ -25,7 +25,7 @@ The Web must now be rewritten around intent. Websites become IntentSites: sovere
 - **Governments — Enable Sovereignty:** They bring excluded populations into the digital economy while ensuring national digital independence from foreign intermediaries.
 
 ## The Choice
-There is no turning back. The choice is yours: stay in the past, polishing outdated interfaces, excluded from the Web economy, or be the first generation to give life to the IntentWeb, where intent is the new currency and the Web finally speaks Human.
+There is no turning back. The choice is yours: stay in the past, polishing outdated interfaces, excluded from the Web economy, or be the first generation to give life to the IntentWeb, where the Web finally speaks Human.
 
 
 © 2025 UXHuman Initiative / Smart Goldfish SAS  
