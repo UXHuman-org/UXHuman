@@ -6,7 +6,7 @@ Domain: [uxhuman.org](https://uxhuman.org)
 
 ## **Overview**
 **Make no mistake:** the old pact of the Internet is broken.  
-The Web was meant to connect people and companies directly — yet today, **AI giants stand in the middle**, intercepting what truly matters: **Human Intent — the new currency of the Web.**  
+The Web was meant to connect people and companies directly — yet today, **AI giants stand in the middle**, intercepting what truly matters: **Human Intent — the new currency of the Web.**
 
 **UXHuman draws the line.**  
 It defines the human, ethical, and interactional layer of the emerging **IntentWeb** — a distributed architecture where **intent, not attention, is the organizing principle.**  
@@ -60,6 +60,17 @@ When these IntentSites interoperate through shared standards, they form the **In
 - `/LICENSE` — Applicable license information (CC BY 4.0 / CC BY-SA 4.0)  
 
 Each release is versioned and timestamped for traceability and integrity verification.
+
+---
+
+## **Nature of This Repository**
+UXHuman is a **canonical documentation framework**, not a software library.  
+This repository contains the official specification documents that define the UXHuman model — its values, architecture, and governance.  
+
+There is **no executable code** in this repository.  
+Implementations of UXHuman principles (such as *IntentLayer* or *IntentSite* reference builds) are developed in separate projects within the IntentWeb ecosystem.  
+
+Think of this repository as the **constitution of UXHuman** — the authoritative source of its philosophy, economic model, architecture, and certification rules.
 
 ---
 
