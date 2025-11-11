@@ -31,4 +31,4 @@ There is no turning back. The choice is yours: stay in the past, polishing outda
 © 2025 UXHuman Initiative / Smart Goldfish SAS  
 Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).  
 You may share and adapt this material with attribution to “UXHuman (www.uxhuman.org)”.  
-See the full license at https://creativecommons.org/licenses/by/4.0/tentWeb: open, interpretable, and aligned with intent rather than attention.*
+See the full license at https://creativecommons.org/licenses/by/4.0/
