@@ -940,7 +940,7 @@ We invite developers, companies, and platform builders to critique these ideas, 
 © 2025 UXHuman Initiative / Smart Goldfish SAS
 Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).  
 If you remix or build upon this material, you must distribute your contribution under the same license,  
-with attribution to “UXHuman (www.uxhuman.org)”.  
+with attribution to “UXHuman" (www.uxhuman.org).  
 See the full license at https://creativecommons.org/licenses/by-sa/4.0/
 
 Visual assets (logos, icons, and illustrations) are excluded from this license and remain the property of Smart Goldfish SAS.  
