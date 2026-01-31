@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://uxhuman.org/schemas/intent-envelope/1.0",
+  "title": "IntentWeb Intent Envelope",
+  "description": "Request/response envelope for the IntentWeb Protocol (§3). Aligns with The IntentWeb Architecture Vision.",
+  "type": "object",
+  "required": ["protocol_version", "flow_type", "message", "interaction_id", "attribution"],
+  "properties": {
+    "protocol_version": {
+      "type": "string",
+      "description": "IntentWeb protocol version (e.g. 1.0)",
+      "examples": ["1.0"]
+    },
+    "flow_type": {
+      "type": "string",
+      "enum": [
+        "intent_request",
+        "information_request",
+        "information_response",
+        "clarification_request",
+        "execution_result",
+        "error"
+      ],
+      "description": "Interaction state; see IntentWeb Protocol §3.4"
+    },
+    "message": {
+      "type": "string",
+      "description": "Natural-language and/or markdown content (§4)"
+    },
+    "interaction_id": {
+      "type": "string",
+      "description": "Opaque id for this conversation; stable for the whole interaction"
+    },
+    "attribution": {
+      "$ref": "#/$defs/Attribution"
+    },
+    "required_information": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Natural-language list of what is still needed (for information_request)"
+    },
+    "collected_information": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Optional key-value summary of collected data"
+    },
+    "status": {
+      "type": "string",
+      "description": "For execution_result or error (e.g. confirmed, failed, invalid_request)"
+    },
+    "external_id": {
+      "type": "string",
+      "description": "Booking ID, order ID, etc. (for execution_result)"
+    },
+    "explicability": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/ExplicabilityEntry" }
+    },
+    "locale": {
+      "type": "string",
+      "description": "BCP 47 language tag"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601"
+    }
+  },
+  "$defs": {
+    "Attribution": {
+      "type": "object",
+      "required": ["query_hash", "nonce", "timestamp", "chain"],
+      "properties": {
+        "query_hash": { "type": "string" },
+        "nonce": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "chain": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/ChainEntry" }
+        }
+      }
+    },
+    "ChainEntry": {
+      "type": "object",
+      "required": ["actor_type", "actor_id", "timestamp", "signature"],
+      "properties": {
+        "actor_type": { "type": "string", "examples": ["ai_agent", "ai_gateway", "intent_site"] },
+        "actor_id": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "signature": { "type": "string" }
+      }
+    },
+    "ExplicabilityEntry": {
+      "type": "object",
+      "properties": {
+        "actor": { "type": "string" },
+        "interpretation": { "type": "string" },
+        "assumptions": { "type": "array", "items": { "type": "string" } },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "routing_logic": { "type": "string" },
+        "sites_considered": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

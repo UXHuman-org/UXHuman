@@ -41,6 +41,8 @@ UXHuman consists of five interrelated canonical documents:
 4. **Design Playbook** — Provides implementation patterns for applying the nineteen UXHuman principles in production environments, including reference patterns, anti-patterns, and measurable outcomes.  
 
 5. **Governance & Collaboration Framework** — Defines contribution, certification, and maintenance processes.  
+
+6. **IntentWeb Protocol** — A concrete protocol specification aligned with the Architecture Vision: endpoints, message formats, flow types, Intent Manifest schema, attribution, and explicability. Enables interoperable implementations of IntentSites and clients.  
    Establishes working groups, RFC procedures, and review standards to ensure openness and accountability.
 
 ---
@@ -56,6 +58,9 @@ When these IntentSites interoperate through shared standards, they form the **In
 
 ## **Repository Contents**
 - `/docs/` — Canonical documents defining the UXHuman framework  
+  - `/docs/architecture/` — IntentWeb Architecture Vision  
+  - `/docs/protocol/` — IntentWeb Protocol specification; critique; and [IntentWeb and NLWeb](docs/protocol/IntentWeb-and-NLWeb.md) (relation to [NLWeb](https://github.com/nlweb-ai/NLWeb))  
+  - `/docs/design-playbook/`, `/docs/economic-model/`, `/docs/governance/`, `/docs/manifesto/`  
 - `/proof/` — Cryptographic proofs, version seals, and release attestations  
 - `/LICENSE` — Applicable license information (CC BY 4.0 / CC BY-SA 4.0)  
 
